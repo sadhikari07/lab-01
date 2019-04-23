@@ -1,0 +1,46 @@
+.type1{
+  width: 480px;
+  height: 75px;
+  background-color: gray;
+}
+
+.type1 p{
+    line-height: 400%;
+}
+
+.type5{
+  clear: both;
+  width: 480px;
+  height: 80px;
+  background-color: antiquewhite;  
+}
+
+.type5 p{
+  line-height: 500%;
+}
+
+@media only screen and (min-width: 768px){
+  .type1{
+    width:960px;
+    height: 100px;
+    background-color: burlywood;
+  }
+
+  .type1 p{
+    line-height: 600%;
+  }
+  
+  .type5{
+    clear: none;
+    width: 760px;
+    height: 150px;
+    float: left;
+    margin: 0 auto;
+    background-color: blue;
+  }
+
+  .type5 p{
+    line-height: 800%;
+  }
+}
+
