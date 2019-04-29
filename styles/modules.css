@@ -27,7 +27,6 @@
   width: 240px;
   height: 250px;
   background-color: crimson;
-  /* float: left; */
 }
 
 section{
@@ -56,24 +55,12 @@ section{
 .type2{
   width: 200px;
   height: 600px;
-  /* float: left; */
   background-color: darkgoldenrod;
 }
 
 section{
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+  display: contents;
 }
-
-.cdefgh{
-display: grid;
-}
-
-/* .type3{
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  
-} */
 
 .type2 p{
   line-height: 3600%;
@@ -82,17 +69,8 @@ display: grid;
 .type3{
   width:380px;
   height: 200px;
-  /* float: left; */
-  grid-template-columns: auto auto;
   background-color: darkorchid;
 }
-
-.cdDiv{
-  display: grid;
-  grid-template-columns: auto auto;
-}
-
-
 
 #type3Box2{
   background-color: gold;
@@ -105,8 +83,6 @@ display: grid;
 .type4{
   width: 190px;
   height: 250px;
-  /* float: left; */
-  
   background-color: fuchsia;
 }
 }
